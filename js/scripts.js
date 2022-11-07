@@ -18,10 +18,10 @@ let pokemonList = [
  
 for (let i = 0; i < pokemonList.length; i++) {
     if (pokemonList[i].height < 2) {
-        document.write(pokemonList[i].name + ' (height: 1) ');
+        document.write('<br>' + pokemonList[i].name + ' (height: 1) ' + '<br>');
     }else if (pokemonList[i].height > 2) {
-        document.write(pokemonList[i].name + ' (height: 3) -Wow! That\'s big! ');
+        document.write('<br>' + pokemonList[i].name + ' (height: 3) -Wow! That\'s big! ' + '<br>');
     }else {
-        document.write(pokemonList[i].name + ' (height: 2) ');
+        document.write('<br>' + pokemonList[i].name + ' (height: 2) ' + '<br>');
     }
 }
