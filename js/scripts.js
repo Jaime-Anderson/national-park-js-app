@@ -4,12 +4,12 @@ let pokemonList = [
     {name: 'Cleffa', height: 2, types: 'fairy'},
 ];
  
-for (let i = 0; i < pokemonList.length; i++) {
+for (let i = 0; i < pokemonList.length; i++){
     if (pokemonList[i].height < 2) {
-        document.write(pokemonList[i].name + " (height: 1)");
+        document.write(pokemonList[i].name + ' (height: 1) \n');
     }else if (pokemonList[i].height > 2) {
-        document.write(pokemonList[i].name + " (height: 3)");
+        document.write(pokemonList[i].name + ' (height: 3) \n');
     }else {
-        document.write(pokemonList[i].name + " (height: 2");
+        document.write(pokemonList[i].name + ' (height: 2) \n');
     }
 }
