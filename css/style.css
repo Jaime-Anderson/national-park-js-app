@@ -1,6 +1,26 @@
+:root {
+    --background-color: #000;
+    --primary-color: #cc0000;
+    --accent-color: #3b4cca;
+    --heading-weight: lighter;
+    --heading-font-style: oblique;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: var(--heading-weight);
+    font-style: var(--heading-font-style);
+}
+
 body {
-   background-color: #ff0000;
-   color: #fff;
+   background-color: var(--background-color);
+   color: var(--primary-color);
    text-align: center;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 20px 10%;
+   padding: 10px;
+   border: 6px groove var(--accent-color);
 }
