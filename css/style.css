@@ -24,3 +24,18 @@ body {
    padding: 10px;
    border: 6px groove var(--accent-color);
 }
+
+.button-style {
+    text-align: center;
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px auto;
+    border: 3px red solid;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+li {
+    list-style-type: none;
+}
