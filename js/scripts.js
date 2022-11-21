@@ -38,15 +38,14 @@ let pokemonRepository = (function () {
         listItem.appendChild(button);
         ul.appendChild(listItem);
         button.addEventListener('click', function(event) {
-            event.showDetails(pokemon);
+            showDetails(pokemon);
         });
     }
 
     return {
-        add: add,
         getAll: getAll,
         addListItem: addListItem,
-    };
+    }
 })();
 
 pokemonRepository.getAll().forEach(function (pokemon) {
